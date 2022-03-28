@@ -1,20 +1,17 @@
-**What is Graphical User Interface (GUI)?**
-Graphical User Interface is a live mimic which gives feel of an actual plant to the plant operator.
-It provides the information of overview reports, process status reports, trend recording, historical data reports, production reports on a work station in the control room.
-In case of PLC, SCADA software is necessary for development of GUI, where as in DCS in built Operator Interface is used for plant mimic displays.
+A fermenter is a manufactured or engineered system that supports a biologically active environment. It is a vessel in which a biological process is carried out which involves organisms or biochemically active substances obtained from such organisms. These substances comprise of food products, enzymes, drugs, alcohols, a biomass etc. These products are consumed in one or other form which demands for the level of sterility as per the FDA standards.
 
-The screen of the display is virtually divided in four parts
-**Message area**, used for displaying the messages, alarms, faults and functional errors of the plant. **Overview area** contains the necessary information related to the status of the individual plant units to assist the operator in efficient plant monitoring.
-**Main display area** gives the detailed representation of anything from process variable to plant unit as per selection by the operator.
-**Operator's Instruction area** contains some standard and user-defined symbols plus some key words which assists the operator to view operating advices from the computer.
+An autoclave is a system, distinct from the fermenter unit, in which the vessel and the culture medium is sterilized by subjecting it to high pressure saturated steam at 121&deg;C for a durations that varies with the capacity and size of the unit. Physically, it is a table top scaled down model designed for the laboratory application. Hence, the name Autoclavable Laboratory Fermenter. The fermenter along with its accessories is shown here.
 <center><img src="images/img1.png" title="" /></center>
 
-### **General Structure of Operator Display Screen**
-Two types of displays available in DCS are: **Standard Displays** and **User defined Displays Standard displays**: Gives graphic, symbolic and alphanumeric information structured in standardized format based on the long experience of the plant engineers and operators. The displays are Plant **Overview Display, Unit or Area Overview Display, Group Display** and **Loop Display** as per the plant hierarchy. The higher level in the hierarchy has access to significant control parameters and alarms of lower levels. \
-**Detailed Display displays** the values of relevant parameters with short-time records. \
-**User - Defined Displays**, as the name suggests, are plant specific. There is no standard library or ready to use display structures available here. \
-**Plant Mimic Diagrams** and **Batch Control Diagrams** are two features normally built by user. \
-**Plant Mimic Diagrams, Area Mimic Diagrams** and **Group Mimic Diagrams** represent the hierarchy for the user defined displays. \
-**Batch Control Diagrams** are used for planning, monitoring and carrying out of batch processes or of time and event-driven sequential processes. The execution of individual step can be seen in it.
-Continuous monitoring of parameters on the displays demands for the presence of the operator. But there are parameters which are very critical. In case of abnormal situation, to attract the attention of user, there is a provision of the alarm banner at the bottom of the display. It displays the alarms as per the configuration. In order to distinguish between different alarms, they are assigned priorities and they are assigned different colors for identifying them.
-Critical alarms are indicated by Red color, Warning alarms by Yellow color and Advisory by Purple color.
+### Need of Automatic Control for the fermenter
+Large amount of heat is generated as the fermentation process proceeds from start to completion. It involves living matter so the process demands accurate control of temperature.
+The ratio of the heat transfer capacity to the metabolic heat generation rate is less which results in low productivity in case of pilot scale, hence there is a need for automatic control system.
+
+The table below shows the different controlled variables, the related manipulated variables, the type of control used and the control algorithm for the bioreactor.
+<center><img src="images/img2.png" title="" /></center>
+Fermentation process is one of the complex processes where automation is needed.
+Tight control of the process parameters is the demand of the process for the qualitative product. In such situation, the possibility of manual control gets ruled out. To implement the accurate control, thorough insight of the process is essential.
+Fermentation is a generic term. The significant parameters related to it can be better understood by taking a specific example. Let us consider the example of Koji process, a soy sauce formation. The process involves the fermentation of a mixture of soybeans and wheat flour by the organism Aspergillus Oryzae under controlled conditions. Temperature and inlet air humidity are the key parameters that need to be controlled for the good quality product.
+
+Following diagram explains various control strategies that can be implemented for the fermenter.
+<center><img src="images/img3.png" title="" /></center>

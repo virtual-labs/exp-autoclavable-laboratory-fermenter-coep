@@ -2,63 +2,63 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "SCADA is used",
+      "question": "For bumpless transfer, ----- connection available in PID function block is used",
       "answers": {
-        "a": "as a standalone system",
-        "b": "along with PLCs",
-        "c": "as a standalone system or with DCS",
-        "d": "as standalone system with DCS"
+        "a": "FB out",
+        "b": "Simulate",
+        "c": "Out",
+        "d": "In"
       },
-      
-      "correctAnswer": "b",
+     
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "SCADA stands for",
+      "question": "Setting the PID controller parameters for optimum process performance is",
       "answers": {
-        "a": "Sequential control and Data acquisition system",
-        "b": "Sequential control and Digital-to-Analog conversion",
-        "c": "Supervisory control and Data acquisition system",
-        "d": "Supervisory control and Digital-to-Analog conversion"
+        "a": "Tuning",
+        "b": "Optimizing",
+        "c": "Performance Setting",
+        "d": "Controlling"
       },
-     
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The optimum process performance can be judged by ----- criteria",
+      "answers": {
+        "a": "Decay ratio",
+        "b": "Subsidence ration",
+        "c": "Integral absolute error",
+        "d": "Any one of the above"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Control strategies used in process control applications",
+      "answers": {
+        "a": "SLPC/MLPC",
+        "b": "PLC/DCS",
+        "c": "Feedback/Feed-forward",
+        "d": "Auto/Manual"
+      },
+      
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "Main Difference between PLC and DCS with respect to operator interface is",
+      "question": "The variable which is adjusted for making process variable equal to the desired value, is",
       "answers": {
-        "a": "Operator interface (SCADA) is not available in DCS",
-        "b": "Can't Say",
-        "c": "SCADA is integral part of PLC",
-        "d": "SCADA is integral part of DCS"
+        "a": "Set point",
+        "b": "Manipulated variable",
+        "c": "Measured variable",
+        "d": "Controlled variable"
       },
       
-      "correctAnswer": "d",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "The operator interface provides information related to",
-      "answers": {
-        "a": "Indicators",
-        "b": "Alarms",
-        "c": "Process status",
-        "d": "All of these"
-      },
-      
-      "correctAnswer": "d",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "The term HMI stands for",
-      "answers": {
-        "a": "Human Machine Interface",
-        "b": "Human Man Interface",
-        "c": "Huge Machine Interface",
-        "d": "Human Machine Interlocks"
-      },
-      
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
