@@ -2,63 +2,63 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "For animation of a push button/ switch in operator interface platform in DCS --- command is used",
+      "question": "A process equipment in which biological conversion takes place is called as",
       "answers": {
-        "a": "Switch",
-        "b": "Change",
-        "c": "Toggle",
-        "d": "Operate"
+        "a": "Bioreactor",
+        "b": "Fermenter",
+        "c": "Bioprocess",
+        "d": "Bioreactor/Fermenter"
       },
      
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Faceplate are used for ----",
-      "answers": {
-        "a": "Controllers",
-        "b": "Digital I/Os",
-        "c": "Analog I/Os",
-        "d": "All these"
-      },
-      
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "To indicate continuous tank level change on operator's screen, the tag value must be set as",
+      "question": "Autoclave is used for",
       "answers": {
-        "a": "Exact value",
-        "b": "Range",
-        "c": "Exact value and Range",
-        "d": "Exact value/Range"
+        "a": "Sterilization",
+        "b": "Filtration",
+        "c": "Evaporation",
+        "d": "Distillation"
       },
-      
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Normally highest priority alarms are indicated with ---- colour in SCADA",
-      "answers": {
-        "a": "Red",
-        "b": "Yellow",
-        "c": "Green",
-        "d": "User selectable"
-      },
-      
+     
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "For Secondary alarms in DCS system -------- colour is preferred",
+      "question": "The time for autoclaving depends on",
       "answers": {
-        "a": "Red",
-        "b": "Yellow",
-        "c": "Green",
-        "d": "User selectable"
+        "a": "Contents Quality",
+        "b": "Contents Quantity",
+        "c": "Quality and Quantity",
+        "d": "None of these"
       },
       
       "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For controlling solid bed temperature ---- is used as the manipulated variable",
+      "answers": {
+        "a": "Tank water flow rate",
+        "b": "Acid flow rate",
+        "c": "Jacket coolant flow rate",
+        "d": "Saturated sterile air flow rate"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": " ------- control scheme is preferred to control bed temperature in fermenter",
+      "answers": {
+        "a": "PID",
+        "b": "On-Off",
+        "c": "Manual",
+        "d": "MPC"
+      },
+      
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
