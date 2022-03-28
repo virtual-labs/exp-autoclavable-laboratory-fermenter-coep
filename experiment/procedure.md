@@ -17,11 +17,11 @@ In DCS these effects can be observed graphically by configuring History View.
 ### **Some of the results obtained by implementing the control scheme on Emerson Delta-V are represented here.**
 
 ### **1. When the process first time settles down.**
-
 <center><img src="images/pro2.png" title="" /></center>
-### **2. After the rate action is introduced**
 
+### **2. After the rate action is introduced**
 <center><img src="images/pro3.png" title="" /></center>
+
 ### **3. When set point disturbance is given to the process**
 
 <center><img src="images/pro4.png" title="" /></center>
