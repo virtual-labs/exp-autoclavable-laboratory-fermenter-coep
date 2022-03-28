@@ -2,37 +2,63 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "SCADA is used",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "as a standalone system",
+        "b": "along with PLCs",
+        "c": "as a standalone system or with DCS",
+        "d": "as standalone system with DCS"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "SCADA stands for",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Sequential control and Data acquisition system",
+        "b": "Sequential control and Digital-to-Analog conversion",
+        "c": "Supervisory control and Data acquisition system",
+        "d": "Supervisory control and Digital-to-Analog conversion"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Main Difference between PLC and DCS with respect to operator interface is",
+      "answers": {
+        "a": "Operator interface (SCADA) is not available in DCS",
+        "b": "Can't Say",
+        "c": "SCADA is integral part of PLC",
+        "d": "SCADA is integral part of DCS"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The operator interface provides information related to",
+      "answers": {
+        "a": "Indicators",
+        "b": "Alarms",
+        "c": "Process status",
+        "d": "All of these"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The term HMI stands for",
+      "answers": {
+        "a": "Human Machine Interface",
+        "b": "Human Man Interface",
+        "c": "Huge Machine Interface",
+        "d": "Human Machine Interlocks"
+      },
+      
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]

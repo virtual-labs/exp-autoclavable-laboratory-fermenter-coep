@@ -2,38 +2,65 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "For animation of a push button/ switch in operator interface platform in DCS --- command is used",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Switch",
+        "b": "Change",
+        "c": "Toggle",
+        "d": "Operate"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Faceplate are used for ----",
+      "answers": {
+        "a": "Controllers",
+        "b": "Digital I/Os",
+        "c": "Analog I/Os",
+        "d": "All these"
       },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "To indicate continuous tank level change on operator's screen, the tag value must be set as",
+      "answers": {
+        "a": "Exact value",
+        "b": "Range",
+        "c": "Exact value and Range",
+        "d": "Exact value/Range"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Normally highest priority alarms are indicated with ---- colour in SCADA",
+      "answers": {
+        "a": "Red",
+        "b": "Yellow",
+        "c": "Green",
+        "d": "User selectable"
+      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "For Secondary alarms in DCS system -------- colour is preferred",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Red",
+        "b": "Yellow",
+        "c": "Green",
+        "d": "User selectable"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
+      
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
 }
+
