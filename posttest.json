@@ -1,0 +1,66 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "A process equipment in which biological conversion takes place is called as",
+      "answers": {
+        "a": "Bioreactor",
+        "b": "Fermenter",
+        "c": "Bioprocess",
+        "d": "Bioreactor/Fermenter"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Autoclave is used for",
+      "answers": {
+        "a": "Sterilization",
+        "b": "Filtration",
+        "c": "Evaporation",
+        "d": "Distillation"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The time for autoclaving depends on",
+      "answers": {
+        "a": "Contents Quality",
+        "b": "Contents Quantity",
+        "c": "Quality and Quantity",
+        "d": "None of these"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For controlling solid bed temperature ---- is used as the manipulated variable",
+      "answers": {
+        "a": "Tank water flow rate",
+        "b": "Acid flow rate",
+        "c": "Jacket coolant flow rate",
+        "d": "Saturated sterile air flow rate"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": " ------- control scheme is preferred to control bed temperature in fermenter",
+      "answers": {
+        "a": "PID",
+        "b": "On-Off",
+        "c": "Manual",
+        "d": "MPC"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
+
